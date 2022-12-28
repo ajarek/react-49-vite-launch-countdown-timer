@@ -1,0 +1,29 @@
+.flip-clock {
+  --fcc-flip-duration: 0.5s; /* transition duration when flip card */
+  --fcc-digit-block-width: 64px; /* digit card's width */
+  --fcc-digit-block-height: 84px; /* digit card's height */
+  --fcc-digit-font-size: 60px; /* font size of digit */
+  --fcc-digit-color: hsl(345, 95%, 68%); /* color of digit */
+  --fcc-background: hsl(231, 8%, 17%); /* digit card's background */
+  --fcc-label-color: #ffffff; /* time label's color */
+  --fcc-divider-color: #ffffff66; /* divider's color */
+}
+.flip{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._2aOn7{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: hsl(237, 18%, 59%);;
+}
+._2EBbg{
+  font-weight: 700;
+}
+/*Liquidation ':' */
+._2hRXr::before,._2hRXr::after{
+  background-color: transparent;
+}
